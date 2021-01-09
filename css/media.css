@@ -1,0 +1,693 @@
+@media screen and (max-width:1024px) {
+
+    html,
+    body {
+        font-size: 16px;
+    }
+
+    .header-container {
+        width: auto;
+    }
+
+    .header-logo {
+        position: fixed;
+        top: 0px;
+        left: 0;
+        z-index: 30;
+        margin: 0;
+    }
+    .header-logo img{ 
+        height: 50px;
+        object-fit: cover;
+    }
+    .container{
+        padding-top: 50px !important;
+        padding-bottom: 60px !important;
+    }
+    .header-menu ul {
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem;
+        position: fixed;
+        z-index: 1000;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #65BDC0;
+        font-size: 11px;
+    
+    }
+    .header-menu ul i{
+            font-size: 1.2rem;
+        }
+    
+    .header-menu li {
+        margin: 0;
+        display: flex;
+    }
+    .header-menu .a-billing{
+        margin: 0;
+    }
+
+    .header-nav {
+        margin-right: inherit;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: #fff;
+        z-index: 20;
+        box-shadow: 0 0 9px rgba(0,0,0,0.2);
+        margin: 0;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    header-nav .icons i {
+        font-size: 36.8px;
+        width: initial;
+        height: initial;
+    }
+
+    .header-nav .icons input {
+        margin-right: 48px;
+        font-size: 20px;
+    }
+
+    /* page STATISTIC*/
+    .wrap-organizer {
+        flex-wrap: wrap;
+    }
+
+    .wrap-organizer h5 {
+        font-size: 19px;
+    }
+
+    .outdoor-temper {
+        width: initial;
+        width: 50%;
+    }
+
+    .wrap-organizer .time {
+        max-width: initial;
+        width: 45%;
+    }
+
+    .m-at-home {
+        margin-top: 18px;
+        width: initial;
+    }
+
+    .rooms-elements {
+
+        position: unset;
+    }
+
+    .wrap-rooms {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .room-block {
+        width: 22%;
+    }
+
+    .wrap-devices {
+        width: 100%;
+    }
+
+    .wrap-devices .block {
+        width: 22%;
+    }
+
+    .controls h1 {
+        font-size: 32px;
+    }
+
+    .themperature-third {
+        width: 17%;
+    }
+
+    .themperature-third h4 {
+        font-size: 16px;
+    }
+
+    .light-air-temp {
+        flex-wrap: wrap;
+    }
+
+    .shortcuts {
+        max-width: initial;
+        max-width: initial;
+        width: 100%;
+    }
+
+    .shortcuts h4 {
+        font-size: 28px
+    }
+
+    .shortcuts-wrap {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .content-block {
+        max-width: initial;
+        width: 30%;
+    }
+
+    .content-block i {
+        font-size: 41.92px;
+    }
+
+    .content-block span {
+        font-size: 24px;
+    }
+
+    .shortcuts {
+        height: initial;
+        max-width: initial;
+        margin-left: initial;
+        align-items: unset;
+        padding-top: 20px;
+    }
+
+    /* page STATISTICS */
+
+    .grafik-e-v {
+        flex-wrap: wrap;
+    }
+
+    .grafik-e-v h4,
+    .grafik-wm-s-d h4 {
+        font-size: 32px;
+    }
+
+    .grafik-wm-s-d {
+        flex-wrap: wrap;
+    }
+
+    .device {
+
+        height: initial;
+        display: flex;
+        flex-wrap: initial;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 25px;
+    }
+
+    /* page Members */
+    .members-container {
+        margin: initial;
+    }
+
+    .members-container .owner {
+        margin-top: 0;
+        width: 29%;
+        padding: 8px;
+    }
+
+    .new-members img {
+        margin: 2%;
+        margin-top: 0;
+        width: 32%;
+    }
+
+    .utility-billing {
+        flex-wrap: wrap;
+    }
+
+    .current_invoice-wrap {
+        width: 133%;
+    }
+
+    .table {
+        width: 100%;
+        ;
+    }
+
+    .table-wrap {
+        padding: 2rem 2.8rem 3rem;
+    }
+
+    .id-months {
+        width: 100%;
+        bottom: 1.5rem;
+        left: 0;
+        padding: 0 2.6rem;
+    }
+
+    .table-wrap table {
+        display: table;
+        justify-content: initial;
+        align-items: initial;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    .table-wrap td {
+        width: calc(100% / 11);
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+    /* page SISURITU */
+
+    .themperature-third {
+        width: 35%;
+    }
+    .light-air, .temperature-third {
+        margin-bottom: 18px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    html,
+    body {
+        font-size: 14px;
+    }
+
+    /* page KITCHEN */
+    .temperature,
+    .humidity,
+    .lightning {
+        margin-right: 41px;
+        margin-top: 15px;
+
+    }
+
+    .thermometer {
+        margin-left: 35px;
+    }
+
+    .room-options .wrap {
+        flex-wrap: wrap;
+    }
+
+    .room-options span {
+        font-size: 1.8rem;
+    }
+
+    .wrap-devices {
+        width: initial;
+        margin: 0 -1rem;
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+
+    .block {
+        margin-right: 2rem;
+    }
+
+    .wrap-rooms {
+        flex-wrap: wrap;
+    }
+
+    .room-block {
+        width: 47%;
+    }
+
+    .wrap-devices .block {
+        width: 30%;
+        margin: 0 .5rem 2rem;
+    }
+
+    /* page SECURITU */
+    .wrap-organizer h5 {
+        font-size: 17px;
+    }
+    .content-block i {
+        font-size: 23px;
+    }
+    .content-block span {
+        font-size: 18px;
+    }
+
+    .oclock {
+        font-size: 2.5rem;
+    }
+
+    .oclock-sun .oclock {
+        font-size: 2.5rem;
+    }
+
+    .themperature-third h4 {
+        font-size: 11px;
+    }
+
+    .picture .number span {
+        font-size: 28px;
+        letter-spacing: 0.09em;
+        color: #1D2343;
+        position: absolute;
+        top: 42px;
+        left: 35px;
+    }
+
+    .light-air {
+        width: 210px;
+    }
+
+    .wrap-fx {
+        padding: 28px;
+    }
+
+    .light-air,
+    .temperature-third {
+        height: 266px;
+        margin-right: 15px;
+    }
+
+    .light-air-temp h4 {
+        margin: 14px 28px 14px 28px;
+    }
+
+    .content-block i {
+        font-size: 30px;
+    }
+
+    .content-block span {
+        font-size: 21px;
+    }
+
+    .shortcuts h4 {
+        font-size: 23px;
+        margin-left: 0;
+    }
+
+    .controls h1 {
+        font-size: 30px;
+    }
+
+    .light-air-temp h4,
+    .shortcuts h4,
+    .invoice-history h4,
+    .current_invoice h4,
+    .invoicing_chart h4 {
+        font-size: 18.2px;
+    }
+
+    .themperature-third h4 {
+        display: none;
+    }
+
+    .themperature-third {
+        justify-content: center;
+    }
+    .oclock-sun .oclock {
+        padding-left: 56px;
+    }
+    .content-block i {
+        font-size: 23px;
+    }
+    .content-block span {
+        font-size: 18px;
+    }
+
+    /* page Members */
+    .device {
+        height: initial;
+        flex-direction: initial;
+        flex-wrap: wrap;
+        width: initial;
+        padding: 25px;
+    }
+
+    .grafik-wm-s-d {
+        justify-content: initial;
+        align-items: unset;
+    }
+
+    .grafik-wm-s-d-card:last-child {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+    }
+
+    .grafik-wrap,
+    .sorting,
+    .device {
+        margin-right: 35px;
+    }
+
+    /* page Members */
+    .members-container .owner {
+        width: 43%;
+    }
+
+    .new-members img {
+        display: none;
+    }
+
+    /* page STATISTICS */
+
+    .table {
+        width: 96%;
+    }
+
+    .table table {
+        border-collapse: collapse;
+
+    }
+
+    .designations {
+        margin-right: initial;
+    }
+
+    .designations p {
+        font-size: 14px;
+    }
+
+    td {
+
+        padding: 13.58px 21.28px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+
+    .header-nav .icons input {
+        margin-right: 5px;
+    }
+
+    .temperature,
+    .humidity,
+    .lightning {
+        margin-right: initial;
+    }
+
+    /* page SECURITU */
+    .oclock-sun i {
+        display: none;
+    }
+
+    .outdoor-temper {
+
+        width: 45%;
+    }
+
+    /* page STATISTICS */
+    .grafik-card {
+        width: 100%
+    }
+
+    .grafik-wrap table {
+        width: 93%;
+    }
+
+    .id-bottom {
+        width: 94%;
+    }
+
+    .grafik-wrap {
+        width: 100%;
+    }
+
+    .grafik-wm-s-d-card {
+        flex-grow: 1;
+    }
+
+    .device-card {
+        width: 33%;
+    }
+
+    .grafik-wm-s-d-card:last-child {
+        display: flex;
+        flex-direction: column;
+        width: 41%;
+    }
+
+    /* psge billing */
+
+    td {
+        padding: 13.58px 16.5px;
+        font-size: 9.8px;
+    }
+
+    th {
+        padding: 14px 5.6px;
+    }
+
+    .table {
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 650px) {
+
+    .light-air,
+    .temperature-third {
+        margin-bottom: 12px;
+    }
+
+    .themperature-third {
+        width: 38%;
+    }
+
+    .themperature-third .thermometer {
+        margin: 11px 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    /* page billing */
+
+    td {
+        padding: 13px 15px;
+        font-size: 8px;
+    }
+
+    th {
+        padding: 11px 4px;
+        font-size: 0.7rem;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+    /* page SECURITU */
+    .wrap-organizer {
+        flex-direction: column;
+    }
+    .header-menu ul {
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+    .header-menu li {
+        letter-spacing: 0.1px;
+        font-size: 12px;
+    }
+
+    .m-at-home {
+        margin-top: 18px;
+        width: initial;
+        width: 100%;
+    }
+
+    .light-air {
+        width: 100%;
+    }
+
+    .wrap-organizer .time {
+        width: 101%;
+        margin-bottom: 24px;
+    }
+
+    .outdoor-temper {
+        width: 100%;
+    }
+
+    .oclock {
+        font-size: 37px;
+    }
+
+    .wrap-devices {
+        justify-content: space-around;
+    }
+
+    .wrap-devices .block {
+        width: 42%;
+        margin: 0 .5rem 2rem;
+    }
+
+    .light-air,
+    .temperature-third {
+        margin-right: initial;
+        margin-bottom: 22px;
+    }
+
+    .themperature-third {
+        width: 100%;
+    }
+
+    .thermometer {
+        margin-left: initial;
+    }
+
+    .shortcuts-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-block {
+        max-width: initial;
+        width: 100%;
+    }
+
+    .wrap-fx .picture {
+        width: auto;
+    }
+
+    .picture .number span {
+        top: 84px;
+        left: 70px;
+    }
+
+    .wrap-fx {
+        padding: initial;
+    }
+
+    .themperature-third .thermometer {
+        margin: 11px 0;
+    }
+
+    /* page members */
+
+    .new-members img {
+        width: 100%;
+        display: block;
+    }
+
+    .members-container .owner {
+        width: 100%;
+    }
+
+    .container {
+        padding: 0 1rem;
+    }
+
+    .invoice-history .table {
+        overflow-x: auto;
+        max-width: 91vw;
+    }
+
+    .name__w_w_e {
+        flex-wrap: wrap;
+    }
+}
